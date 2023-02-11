@@ -17,8 +17,13 @@ if(inputNum != null)
 
     //Здесь получается вводим еще переменную Аут и в нее кладем квадрат числа
     int outNum = number*number;
+    //Можно оформить как int outNum = (int)Math.Pow(number, 2);, в скобках само чсло и указание степени), (int) - принудительно привести к целому
 
     //Выводим резульат
     Console.Write("Квадрат введенного числа: ");
     Console.WriteLine(outNum);
+    //Две строки можно оформить в одно так: Console.WriteLine("Квадрат введенного числа: "+outNum);
+
 }
+
+//Задачу можно решить простой записью Console.WriteLine("Квадрат числа: "+Math.Pow(int.Parse(inputNum),2));
