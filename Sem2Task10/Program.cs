@@ -19,7 +19,7 @@ else
 
 // Решение 2. Пробую через string и arr
 Console.Write("Введите любое трехзначное число ");
-string num1 = Console.ReadLine();
+string num1 = Console.ReadLine()??"0";
 Char[] arr = num1.ToCharArray();
 // Узнаем длину массива, чтобы сделать проверку на трехзначность
 int size = num1.Length;
