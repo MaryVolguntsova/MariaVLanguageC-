@@ -1,6 +1,6 @@
 ﻿// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 Console.Write("Введите любое число: ");
-string num = Console.ReadLine();
+string num = Console.ReadLine()??"0";
 // Создаем массив и узнаем его размер, чтобы работать со всеми числами
 char[] arr = num.ToCharArray();
 int size = num.Length;
@@ -19,7 +19,7 @@ Console.Write("Введите любое число: ");
 int secNum = int.Parse(Console.ReadLine()??"0");
 int outNum = 0;
 // Проверяем, чтоб в числе было 3 или более цифры
-if(secNum > 99)
+if(secNum >= 100)
 {
     // Убираем 1 цифру, пока  в числе не останется 3 цифры 
     while(secNum > 999)
