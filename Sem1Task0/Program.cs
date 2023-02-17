@@ -23,7 +23,6 @@ if(inputNum != null)
     Console.Write("Квадрат введенного числа: ");
     Console.WriteLine(outNum);
     //Две строки можно оформить в одно так: Console.WriteLine("Квадрат введенного числа: "+outNum);
-
 }
 
 //Задачу можно решить простой записью Console.WriteLine("Квадрат числа: "+Math.Pow(int.Parse(inputNum),2));

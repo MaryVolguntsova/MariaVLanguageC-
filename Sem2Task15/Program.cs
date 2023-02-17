@@ -25,3 +25,12 @@ Dictionary<int, string> weekTwo = new Dictionary <int, string>()
 
 Console.Write(weekTwo[num]);
 
+// Проверка, ввели ли день недели
+// if(weekTwo.ContainsKey(weekTwo))
+// {
+//   Значение ячейки
+// }
+// else
+// {
+//   Это не день недели!
+// }
